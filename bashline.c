@@ -63,6 +63,10 @@
 
 #include <glob/glob.h>
 
+#define setgrent() 0
+#define getgrent() 0
+#define endgrent() 0
+
 #if defined (ALIAS)
 #  include "alias.h"
 #endif
